@@ -1,0 +1,219 @@
+body{
+	overflow-x: hidden;
+  font-family: 'Raleway', sans-serif;
+}
+
+/* just in case of flooding in 'x'*/
+
+a {
+  color: #3ec0be
+  text-transform: uppercase;
+}
+
+/* a:visited {
+  color: #3ec0be
+} */
+
+a:hover {
+  color: black;
+}
+
+#header {
+position: relative;
+bottom: 48px;
+}
+
+.title{
+  top: 200px;
+  font-size: 4.5vw;
+  line-height: 70%;
+  color: black;
+  font-weight: bold;
+}
+
+#head-bg{
+  padding: 200px;
+  background-image:url(../img/lr9bg.jpg);
+  background-position: center;
+  background-size: cover;
+}
+
+/* changing the colors of links and link states */
+
+
+
+
+/* not the most efficent way to do this probably, but it's just adding padding
+space to the bottom of each picture in the carosel */
+
+/* names appear when you hover on the buttons, theres a weird thing happening at the top of the images */
+
+div .name{
+  display: none;
+}
+
+
+
+.one:hover  .name{
+  color:white;
+  display: block;
+  text-decoration: none;
+
+}
+
+.two:hover  .name{
+  color:white;
+  display: block;
+  text-decoration: none;
+
+}
+
+.three:hover  .name{
+  color:white;
+  display: block;
+  text-decoration: none;
+
+}
+
+.four:hover  .name{
+  color:white;
+  display: block;
+  text-decoration: none;
+
+}
+
+.five:hover  .name{
+  color:white;
+  display: block;
+  text-decoration: none;
+
+}
+
+.six:hover  .name{
+  color:white;
+  display: block;
+  text-decoration: none;
+
+}
+
+.seven:hover  .name{
+  color:white;
+  display: block;
+  text-decoration: none;
+
+}
+
+
+.eight:hover  .name{
+  color:white;
+  display: block;
+  text-decoration: none;
+
+}
+
+
+.five:hover  .name{
+  color:white;
+  display: block;
+  text-decoration: none;
+
+}
+
+.nine:hover  .name{
+  color:white;
+  display: block;
+  text-decoration: none;
+
+}
+
+
+
+
+
+
+
+.col {
+          padding-right: 0px;
+          padding-left: 0px;
+    }
+
+/* defaults the spacing in the image carousels */
+
+.nav {
+}
+
+.nav li {
+	display: inline;/*
+  padding-right: 1.5em;
+  padding-left: 1.5em;*/
+	font-size: 130%;
+}
+
+/* gives spacing between navbar items */
+
+
+#title {
+
+    /* background styling */
+
+      background: #4bb4b4;
+  	  background: -moz-linear-gradient(top, #4bb4b4 0%, #131315 100%);
+  	  background: -webkit-linear-gradient(top, #4bb4b4 0%,#131315 100%);
+  	  background: linear-gradient(to bottom, #4bb4b4 0%,#131315 100%);
+  	  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#4bb4b4', endColorstr='#131315',GradientType=0 );
+
+    /* lettering */
+
+      letter-spacing: 6px;
+      font-family: 'Raleway', sans-serif;
+      font-size: 3.5em;
+      font-weight: 800;
+      color: white; 
+
+    /* positioning */
+
+      position: relative; 
+      top: -25px; 
+      padding-top: 20px; 
+      padding-bottom: 20px;
+    }
+
+    /* modification for all of the header content */
+
+.nav {
+  position: relative;
+  top: -20px;
+}
+
+    /* shifts the navbar up towards the header */
+
+    /* div backgrounds */
+
+
+#desktopCarousel{
+		position: inherit;
+    	display: block;
+    	max-width: 874px;
+
+    }
+
+#mobileCarousel {
+	display: none;
+	max-width: 354px;
+}
+
+/* these both are kind of not even needed at this point thanks to the
+responsive images */
+
+/* @media only screen and (min-width: 0px) and (max-width: 414px){
+	#desktopCarousel {
+		display: none;
+		max-width: 354px;
+	}
+
+	#mobileCarousel {
+	display: block;
+	max-width: 354px;
+}
+
+} */
