@@ -6,16 +6,19 @@ body{
 /* just in case of flooding in 'x'*/
 
 a {
-  color: #3ec0be
-  text-transform: uppercase;
+  color: #3ec0be;
+  
 }
 
 /* a:visited {
   color: #3ec0be
 } */
-
+.nav-item a {
+  color: #3ec0be;
+  text-transform: uppercase;
+}
 a:hover {
-  color: black;
+  color: #E7C6F1;
 }
 
 #header {
