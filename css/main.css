@@ -3,12 +3,20 @@ body{
   font-family: 'Raleway', sans-serif;
 }
 
+h4{
+  font-family: 'Raleway', sans-serif;
+  font-weight: bold;
+  text-shadow:5px 5px 10px black;
+}
+
 /* just in case of flooding in 'x'*/
 
 a {
   color: #3ec0be;
   
 }
+
+
 
 /* a:visited {
   color: #3ec0be
@@ -51,18 +59,22 @@ space to the bottom of each picture in the carosel */
 
 /* names appear when you hover on the buttons, theres a weird thing happening at the top of the images */
 
-div .name{
-  display: none;
-}
-
-
-
-.one:hover  .name{
+.over{
+  position: absolute; 
+  top: 200px; 
+  left: 0; 
+  width: 100%; 
   color:white;
-  display: block;
-  text-decoration: none;
 
 }
+
+
+
+.one:hover image {
+  
+}
+
+
 
 .two:hover  .name{
   color:white;
